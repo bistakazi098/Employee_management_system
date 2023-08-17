@@ -71,7 +71,7 @@ public class Login extends JFrame implements ActionListener {
 
         // Load and display profile picture
         ImageIcon profileOne = new ImageIcon(ClassLoader.getSystemResource("icon/Login/vecteezy_cloud-computing-modern-flat-concept-for-web-banner-design_5879539.jpg"));
-        Image profileTwo = profileOne.getImage().getScaledInstance(250, 250, Image.SCALE_DEFAULT);
+        Image profileTwo = profileOne.getImage().getScaledInstance(300, 250, Image.SCALE_DEFAULT);
         ImageIcon fprofileOne = new ImageIcon(profileTwo);
         JLabel profileLabel = new JLabel(fprofileOne);
         profileLabel.setBounds(5, 5, 250, 250);
