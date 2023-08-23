@@ -67,7 +67,7 @@ Signup page
 
 Main Dashboard
 
-![Main Dashboard](https://github.com/bistakazi098/Employee_management_system/blob/master/Screenshort/Screenshot%20from%202023-08-17%2011-55-50.png)
+![Main Dashboard](https://github.com/bistakazi098/Employee_management_system/blob/master/Screenshort/Signup.png)
 
 Add Employee
 
