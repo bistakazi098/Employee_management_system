@@ -62,6 +62,23 @@ public class Main extends JFrame {
         });
         img.add(rem);
 
+        //create a Signout button
+
+        JButton Signout = new JButton("Signout");
+        Signout.setBounds(565, 370, 200, 40);
+        Signout.setForeground(Color.WHITE);
+        Signout.setBackground(Color.BLACK);
+        Signout.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                if (e.getSource() == Signout) {
+                    setVisible(false);
+                    new Login(); // out the program
+                }
+            }
+        });
+        img.add(Signout);
+
         // Set JFrame properties
         setSize(1120, 630);
         setLocation(120, 5);
