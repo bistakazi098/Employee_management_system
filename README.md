@@ -17,10 +17,6 @@ The project is made on Java swing and Mysql database. IntelliJ IDEA was used as 
 2. Install the necessary dependencies.
 3. Run the application.
 
-## Database setup
-
-```
-    
 ## Dependecies 
 If there is any problem in  executing the code then.
 import  the following packages and place it in project structure of IntelliJ IDEA.
