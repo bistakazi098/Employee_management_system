@@ -18,29 +18,7 @@ The project is made on Java swing and Mysql database. IntelliJ IDEA was used as 
 3. Run the application.
 
 ## Database setup
-```bash
-1) create mysql user and password ;
-2)create database;
-3 create table  Signup;
- -CREATE TABLE Signup (
-    employe_id VARCHAR(20),
-    username VARCHAR(20),
-    user VARCHAR(20),
-    password VARCHAR(20)
-);
-4 create table  employee;
- -CREATE TABLE employee (
-    name VARCHAR(20),
-    Fname VARCHAR(20),
-    Dob VARCHAR(30),
-    salary VARCHAR(20),
-    address VARCHAR(20),
-    phone VARCHAR(20),
-    email VARCHAR(20),
-    designation VARCHAR(20),
-    heducation VARCHAR(20),
-    eid VARCHAR(20)
-);
+
 ```
     
 ## Dependecies 
